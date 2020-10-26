@@ -1,18 +1,25 @@
+	/*styling the CSS. View more at rasheedatoba.com.ng*/
+	
+	/*First, we style the html and the body tags*/
 	html,body{
 			height: 100%;
 		}
+		
+	/*This styles the container class on line 15*/
        .container{
        	height: 100%;
        	align-content: center;
        }
-
+	   
+	/*This styles the image_outer_container class on line 23*/
        .image_outer_container{
        	margin-top: auto;
        	margin-bottom: auto;
        	border-radius: 50%;
        	position: relative;
        }
-
+	   
+	/*This styles the image_inner_container class on line 27*/
        .image_inner_container{
        	border-radius: 50%;
        	padding: 5px;
@@ -20,13 +27,8 @@
         background: -webkit-linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4); 
         background: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
        }
-       .image_inner_container img{
-       	height: 200px;
-       	width: 200px;
-       	border-radius: 50%;
-       	border: 5px solid white;
-       }
-
+	   
+	   /*This styles the image_outer_container green_icon class on line 26*/
        .image_outer_container .green_icon{
          background-color: #4cd137;
          position: absolute;
@@ -37,3 +39,11 @@
          border:5px solid white;
          border-radius: 50%;
        }
+	 /*This styles the image_inner_container class image on line 29*/
+       .image_inner_container img{
+       	height: 200px;
+       	width: 200px;
+       	border-radius: 50%;
+       	border: 5px solid white;
+       }
+	
